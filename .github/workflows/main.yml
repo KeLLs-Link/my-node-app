@@ -20,10 +20,10 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t my-node-app:latest .
+        run: docker build -t udofiamichael/my-node-app:latest .
 
       - name: Run Tests
         run: npm test
 
       - name: Push Docker image
-        run: docker push my-node-app:latest
+        run: docker push udofiamichael/my-node-app:latest
