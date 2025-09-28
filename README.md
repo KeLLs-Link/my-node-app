@@ -1,5 +1,5 @@
 
-## **A Containerized Node.js Application Using GitHub Actions as CI/CD Pipeline**
+## **A Containerized Node.js Application Using GitHub Actions as CI/CD**
 
 ![image](./Screenshots/projectstructure.jpg)
 
